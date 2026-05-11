@@ -1,5 +1,5 @@
 :root {
-    --primary: #6366f1; /* Indigo tone */
+    --primary: #6366f1;
     --bg-dark: #0f172a;
     --glass: rgba(255, 255, 255, 0.05);
 }
@@ -39,7 +39,6 @@ body {
     gap: 12px;
 }
 
-/* --- Final Avatar & Robot Icon Styling --- */
 .avatar {
     width: 42px;
     height: 42px;
@@ -51,7 +50,7 @@ body {
     overflow: hidden;
     position: relative;
     box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.1);
-    transition: transform 0.3s ease; /* Hover transition */
+    transition: transform 0.3s ease;
 }
 
 .avatar:hover {
@@ -71,7 +70,7 @@ body {
 
 .status {
     font-size: 0.75rem;
-    color: #10b981; /* Green */
+    color: #10b981;
 }
 
 .chat-window {
@@ -83,7 +82,6 @@ body {
     gap: 12px;
 }
 
-/* --- Message Bubbles --- */
 .message {
     padding: 12px 16px;
     border-radius: 18px;
@@ -106,7 +104,6 @@ body {
     border-bottom-left-radius: 4px;
 }
 
-/* --- Input Section --- */
 .input-area {
     padding: 20px;
     display: flex;
